@@ -1,0 +1,177 @@
+/* Author - Priyadarshi Abhishek */
+
+@media (max-width: 980px) {
+  .burger {
+    display: block;
+  }
+  .nav-bar {
+    height: 45vh;
+    transition: all 0.5s cubic-bezier(0.55, 0.26, 0.45, 1.02);
+  }
+  .nav-bar,
+  .nav-list {
+    padding: 2rem;
+    gap: 2rem;
+  }
+  .logo,
+  .search-div {
+    margin: auto;
+  }
+  .nav-res {
+    height: 5rem;
+  }
+  .invisible-res {
+    visibility: hidden;
+  }
+  .card2 {
+    align-items: center;
+  }
+  .facility-cards-container {
+    align-items: center;
+  }
+  .facility-cards-container,
+  .msg,
+  .nav-bar,
+  .nav-list {
+    flex-direction: column;
+  }
+}
+@media (max-width: 810px) {
+  .first-half {
+    padding: 4rem;
+  }
+  .second-half {
+    width: 10rem;
+  }
+  .btn-container {
+    display: flex;
+  }
+}
+@media (max-width: 780px) {
+  .btn {
+    padding: 1rem;
+    font-size: 1.9rem;
+  }
+}
+@media (max-width: 720px) {
+  .card {
+    flex-direction: row;
+  }
+  .btn {
+    border-radius: 3rem;
+    padding: 0.9rem;
+  }
+}
+@media (max-width: 680px) or (max-width: 650px) {
+  .card {
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .point-img-div {
+    margin-top: 1rem;
+  }
+  .btn-container {
+    display: block;
+  }
+  .btn:first-child {
+    margin-bottom: -0.7rem;
+  }
+}
+@media (max-width: 600px) {
+  .card3 > .point-txt > h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 570px) {
+  .msg {
+    padding: 5rem;
+  }
+}
+@media (max-width: 500px) {
+  .logo {
+    width: 7vw;
+  }
+}
+@media (max-width: 460px) or (max-width: 420px) or (max-width: 400px) or (max-width: 360px) {
+  .intro {
+    text-align: center;
+    flex-direction: column;
+  }
+  .second-half {
+    display: none;
+  }
+  .msg {
+    padding: 3rem;
+  }
+}
+@media (max-width: 440px) {
+  .intro {
+    background-position: 50rem;
+  }
+  .points {
+    padding: 2rem;
+  }
+  .btn {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 380px) {
+  .btn {
+    margin-top: 2rem;
+    padding: 0.8rem;
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 370px) {
+  .footer-list-container > * {
+    text-align: center;
+  }
+  .footer-list-container:last-child {
+    margin-left: 2rem;
+  }
+  .footer-txt {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 360px) or (max-width: 320px) {
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 2rem;
+    flex-shrink: 0;
+    font-size: 1.8rem;
+  }
+  .facility-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+  }
+  /* .point-para {
+    font-size: 20ch;
+    margin: auto;
+  } */
+}
+@media (max-width: 310px) {
+  .intro {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .card3 {
+    font-size: 1.6rem;
+    padding: 2rem;
+  }
+  .btn {
+    padding: 0.6rem;
+  }
+  .footer-list-container {
+    gap: 8rem;
+  }
+}
+@media (max-width: 280px) {
+  .footer-list-container {
+    gap: 6rem;
+  }
+}
